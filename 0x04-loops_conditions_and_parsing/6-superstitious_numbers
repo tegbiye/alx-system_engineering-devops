@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+# This is script display 1 to 20
+# displays 4 and bad luck from China
+# displays 9 and then bad luck from Japan
+# displays 17 and bad luck from Italy
+i=0
+while [ "$i" -lt 20 ]
+do
+   echo "$i"
+   if [ "$i" -eq 4 ]
+   then
+      echo "bad luck from China"
+   elif [ "$i" -eq 9 ] 
+   then
+      echo "bad luck from Japan"
+   elif [ "$i" -eq 17 ]
+   then
+      echo "bad luck from Italy"
+   fi
+   i=$((i + 1))
+done
+i=$i
