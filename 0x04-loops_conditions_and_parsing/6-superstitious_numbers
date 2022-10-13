@@ -4,7 +4,7 @@
 # displays 9 and then bad luck from Japan
 # displays 17 and bad luck from Italy
 i=0
-while [ "$i" -lt 20 ]
+while [ "$i" -le 20 ]
 do
    echo "$i"
    if [ "$i" -eq 4 ]
