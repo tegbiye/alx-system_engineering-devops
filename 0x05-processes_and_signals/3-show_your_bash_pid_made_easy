@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# This is bash script showing the pid with process name containing bash
+# Don't use ps
+
+pgrep -l bash
