@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# This script kills 4-to_inifity_and_beyond without using kill
+
+pkill -f beyond
