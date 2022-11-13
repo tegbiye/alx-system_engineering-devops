@@ -1,8 +1,6 @@
 # Distributed Web Infrastructure
 
-![Image of a distributed web infrastructure](1-distributed_web_infrastructure.jpg)
-
-[Visit Board](https://drive.google.com/file/d/1L-89Ua20B26Wfi5X-I51KV5ieCB4vfO1/view?usp=share_link)
+[Image of a distributed web infrastructure](https://drive.google.com/file/d/1L-89Ua20B26Wfi5X-I51KV5ieCB4vfO1/view?usp=share_link)
 
 ## Description
 
