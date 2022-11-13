@@ -1,8 +1,6 @@
 # Secured and Monitored Web Infrastructure
 
-![Image of a secured and monitored infrastructure](2-secured_and_monitored_web_infrastructure.jpg)
-
-[Visit Board](https://drive.google.com/file/d/13McUPWDVpYaIkBeQpvb3xVd3N9rbeGJj/view?usp=share_link)
+[Image of a secured and monitored infrastructure](https://drive.google.com/file/d/13McUPWDVpYaIkBeQpvb3xVd3N9rbeGJj/view?usp=share_link)
 
 ## Description
 
