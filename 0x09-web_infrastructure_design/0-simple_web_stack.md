@@ -1,8 +1,6 @@
 # Simple Web Stack
 
-![Image of a simple web stack](0-simple_web_stack.jpg)
-
-[Visit Board](https://drive.google.com/file/d/11JQ4vJTB0dzXfejCSXhBr5VbausNz98S/view?usp=share_link)
+[Image of a simple web stack](https://drive.google.com/file/d/11JQ4vJTB0dzXfejCSXhBr5VbausNz98S/view?usp=share_link)
 
 ## Description
 
