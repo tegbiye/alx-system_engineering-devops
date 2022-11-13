@@ -1,8 +1,6 @@
 # Scaled Up Web Infrastructure
 
-![Image of a scaled up web infrastructure](3-scale_up.jpg)
-
-[Visit Board](https://drive.google.com/file/d/1WL7pCiujqOiHj1jZZIxVZR-11iXiuVI6/view?usp=share_link)
+[Image of a scaled up web infrastructure](https://drive.google.com/file/d/1WL7pCiujqOiHj1jZZIxVZR-11iXiuVI6/view?usp=share_link)
 
 ## Description
 
