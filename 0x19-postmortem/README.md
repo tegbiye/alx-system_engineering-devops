@@ -1,27 +1,30 @@
-## Postmortem
-Learning how to write an Incident Report, also referred to as a Postmortem. 
-This postmortem follows the guidelines used closely by google engineers to file reports. 
-The report is made up of five parts, an issue summary, a timeline, root cause analysis, 
-resolution and recovery, and lastly, corrective and preventative measures. 
-Lets review each of these parts in detail.
+## 0x19-Postmortem
+## Nginx likes port 80 (a post-mortem)
+The following is the incident report for the Nginx connection 
+failure that occurred on May 16, 2023. 
+I understand this service issue has impacted 
+not running a server for other projects.
 
 ### Issue Summary
-short summary (5 sentences)
-list the duration along with start and end times (include timezone)
-state the impact (most user requests resulted in 500 errors, at peak 100%)
-close with root cause
-Timeline
-list the timezone
-covers the outage duration
-when outage began
-when staff was notified
-actions, events, 
-when service was restored
-Root Cause
-give a detailed explanation of event
-do not sugarcoat
-Resolution and recovery
-give detailed explanation of actions taken (includes times)
-Corrective and Preventative Measures
-itemized list of ways to prevent it from happening again
-what can we do better next time?
+From 10:30 AM to 4:00 PM EAT, curl requests to the local server I set up on port 80 resulted 
+in a connection with refused messages. At its peak, the issue affected 
+me not to complete the project I have been working on. The incident caused 
+a delay not to complete my assignment on time.
+### Timeline
+- 11:00 AM: I made the Configuration change and when I test (service nginx status)
+- 11:05 AM: Nginx is reloaded (restarted)
+- 11:30 AM - 12:00 PM: Curl request fails, and the issue began
+- 1:30 PM: After lunch, I continued investigating the issue
+- 2:00 PM: After going to the forums and Stackoverflow investigated the issue and identified the root cause
+- 2:30 PM: I made a successful configuration change rollback.
+- 3:00 PM: Nginx restarts begin
+- 4:00 PM: After all the nginx is running and completed the project.
+### Root Cause
+At 11*:00 AM*, I made a configuration change to the nginx configuration file that specifies the ports that the server listens to. The change specified that the default server only listens to requests made on port 8080. The configuration change was for the project purpose and this contributed to the issue.
+
+At 4*:00 PM*, nginx was reloaded to apply the configuration changes, and a minute later, curl requests on port 80 returned connection failure and then rolled back the configuration change and made changes to the configuration file to listen on port 80. The web server was reloaded to apply the changes, and upon another curl request, the connection was restored, and the expected output was returned by the server.
+### Corrective and Preventative Measures
+I have taken the following corrective and preventative measures to ensure that similar incidents do not occur in the future:
+- I have implemented a note about the case and written all the steps I followed to solve if the same error occurs.
+- I have put the  comment in the configuration file about the error
+- To correct the issue I have consulted forums, stackoverflow for the similar issue if occurred.
