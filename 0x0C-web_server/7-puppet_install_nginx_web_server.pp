@@ -4,7 +4,7 @@ package { 'nginx':
 provider => 'apt',
 }
 exec {'hlbtn_page':
-command => '/usr/bin/sudo /bin/echo Hello World > /var/www/html/index.nginx-debian.html',
+command => '/usr/bin/sudo /bin/echo Hello World | sudo tee /var/www/html/index.nginx-debian.html > /dev/null',
 }
 exec {'redirect_page':
 
