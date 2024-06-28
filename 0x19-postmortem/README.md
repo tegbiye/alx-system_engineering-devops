@@ -1,7 +1,7 @@
 ## 0x19-Postmortem
 ## Nginx likes port 80 (a post-mortem)
 The following is the incident report for the Nginx connection 
-failure that occurred on May 16, 2023. 
+failure that occurred on June 05, 2024. 
 I understand this service issue has impacted 
 not running a server for other projects.
 
